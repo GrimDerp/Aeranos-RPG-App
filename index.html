@@ -1,0 +1,653 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- Hello Camper! For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! - The freeCodeCamp Team -->
+<html lang="en" class="pc chrome77 js"><!--<![endif]--><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css"></head>
+
+<nav id="navbar">
+  <header>Aeranos Adventures</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#The_Ley_of_the_Land"
+        >The Ley of the Land</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#Cogs">Cogs</a>
+    </li>
+    <li><a class="nav-link" href="#Dangerous_Inhabitants">Dangerous Inhabitants</a></li>
+    <li><a class="nav-link" href="#Character_Creation">Character Creation</a></li>
+    <li>
+      <a class="nav-link" href="#Lucky_Breaks">Lucky Breaks</a>
+    </li>
+    <li><a class="nav-link" href="#Inspiration_&_Flaws">Inspiration & Flaws</a></li>
+    <li><a class="nav-link" href="#Story_Complication">Story Complication</a></li>
+    <li><a class="nav-link" href="#New_Flaws_After_Character_Creation">New Flaws After Character Creation</a></li>
+    <li><a class="nav-link" href="#Pushing_Your_Abilities">Pushing Your Abilities</a></li>
+    <li>
+      <a class="nav-link" href="#Aeranos_Feats">Aeranos Feats</a>
+    </li>
+    <li><a class="nav-link" href="#while_statement">while statement</a></li>
+    <li>
+      <a class="nav-link" href="#Patreon">Patreon</a>
+    </li>
+    <li><a class="nav-link" href="#Online_Character_Sheets">Online Character Sheets</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        A Steampunk fantasy setting for DnD 5E and More!
+
+What is it? It’s steampunk, airships, shard pistols, fireballs and dragons, floating islands and pirate kings. Ship graveyards in the ether. Mechanized golems and arcanicraft races. Magic vs. technology. Gods vs. mortals. Ancient, magical civilizations transformed by dirty industry and the tycoons that run it. Wyld Syvani shardslingers. Rebel druids vs. Imperial inquisitors. Angry fey. Durin mines belching black clouds from the deeps. Mad Dinari tinkers, weird and wonderful gadgets, demons at the fringes.
+      </p>
+
+      <p>
+        Aeranos is a large Continent encompassing high icy mountains, vast rolling plains and dense temperate forests. Great muddy murks, large inland seas, deep, treacherous bays and dark, endless underground caverns dot this expanse and much remains uninhabited by the Namer races.
+      </p>
+      <ul>
+        <li>
+          In the year 572 of the current calendar six great Kingdoms hold sway in Aeranos. To the South, in the Great Taigan Wood lies the Syvani and Faelinarie nation of Manawyn. Surrounding the Sea of Fahl and taking up much of the middle and northeastern isle are the three Neran Kingdoms of Argos, Deoria and Fom. In the vast plains of the North, the Oroka tribes rule the Kingdom of Delek, and in the oldest civilization of the Isle, the Durin Darkurth Empire rules from deep within the Tintagel Mountains.
+        </li>
+        <li>
+          Together, these six nations make up the Commonwealth Empire of Aeranos. Brought together during the Kaaj invasion ninety years ago, the Empire is administered by a high counselor from each nation, each appointed by their respective sovereign ruler. Over all, an elected Grand Emperor rules from the Imperial City of Milum, where the bulk of the Imperial forces are housed.
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="The_Ley_of_the_Land">
+    <header>The Ley of the Land</header>
+    <article>
+      <p>This guide assumes you have the following basic background:</p>
+
+      <ul>
+        <li>
+          To be certain, there are other societies and minor kingdoms, some that have fallen and yet others that are gaining in power. The Knockfara tribes have many petty kingdoms within the forests and mountains. The Syvani do not all inhabit the southern wood and many of their Sithas rule vast stretches of forest elsewhere on the Isle. The great Morodos clans once ruled much of the continent and there giant-sized, hidden strongholds can still be found in the harshest of wilderness. Durin, Faelinarie, Fekra, Dinar, Meran, Kuranani and Trulla are just a few of the others that war and trade, weaving their own threads into the soot stained tapestry of the Isle.
+        </li>
+        <li>It is an old, celtic land transformed by modern, magical industry. The ancient ways of the clans battle with the new thinking of powerful merchant lords and their vast business interests. Sprawling cities sprout sky high airship towers from medieval fortress walls. Smokestacks belch arcanic fumes from countless factories.</li>
+        <li>
+          Leylines team with cloudrunners, windcutters, storm galleons and the slower, more numerous zeppelin barges, technological wonders invented by the small race of Dinari gnomes from Dragon Mountain. Soldiers and adventurers carry elemental powered slag rifles and shard pistols holstered next to blades and axes. Ships and fortifications are protected by dangerous pyromite cannons and Aetheric rays. Arcanic steam engines power ships, hovercraft and Cogs.
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Cogs">
+    <header> Cogs</header>
+    <article>
+      <p>
+        Ah yes, Cogs! Ranging in size from tiny automatons the size of a cat, to lumbering giants the size of a house, these mechanical constructs are a strange combination of magic and technology. Powerful, intricate, gear driven machines with the hearts of wild elemental spirits, commanded by magic to do the bidding of their owners, every city dweller in Aeranos knows the sound of their tread. Cogs do heavy labor in mines and factories, they serve as guards and porters on ships and in rich homes. They deliver goods and messages, clean cobbled streets and even march as weapons of war in the Imperial legion.
+      </p>
+
+      <p>
+        The Great Powers of Aeranos include the Lord and Lady above all, aloof powers that rule the lesser Gods. Below them in rank, but greatest among those worshipped by the namers, are the Elder Gods, Erod the Summoner, known by such titles as the Lord of Storms, or the Sun Father, and his female counterpart, Cynwen the Huntress, Lady of the Wood, the Emerald Crone.
+      </p>
+      <p>
+        Below them, the Namer Gods of the Golden and Shadow Courts. Those powers that once were mortal or powerful ideals, and were raised up in the ancient past by worship and the great and terrible cataclysm. Among these are Culan the Warrior, Nedra the Mistress, Murbagh the Tiller, Mogda the Collector, Gleeve the Traveller and Agmored the Destroyer.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Dangerous_Inhabitants">
+    <header>Dangerous Inhabitants</header>
+    <article>
+      And even below these are the interlopers, Demons both lowly and powerful like Sevos, the Master of Torments and Minerest, the Mistress of Webs, who have carved out niches in the shadow planes where the Gods cannot reach them. From these pocket realms they slowly eat away at the power of the Gods.
+
+And lurking beneath the surface of it all is an ancient, forgotten menace to the west. The immortal race of Outworlders, shielded behind their Dragon Wall, plot the downfall of Aeranos with the slow, devious methods that made them rulers of two worlds before.
+
+In all, the Isle of Aeranos embodies a vast puzzle of cultures, secrets, traditions, and the races that spawned them. The unknown lurks near at hand and both the risk and reward goes to those daring enough to seek it. This is not a place for the timid or fearful. Only those with honor in their hearts and steel in their stride will make a difference.
+      <code
+        >function greetMe(yourName) { alert("Hello " + yourName); }
+        greetMe("World");
+      </code>
+
+      Select the code in the pad and hit Ctrl+R to watch it unfold in your
+      browser!
+    </article>
+  </section>
+  <section class="main-section" id="Character_Creation">
+    <header>Character Creation</header>
+    <p>
+      Classes
+All classes from the Players Handbook are allowed, plus the Artificer. And the Gunslinger archetype.
+    </p>
+    <p>
+      Feats
+Standard Feats are allowed. Also consider the Aeranos feats: Firearms Expert and Aeronaut.
+    </p>
+    <p>
+      Standard Player Races
+Human (Neran)
+
+Think celts, gauls and norse mainly.
+
+
+Elf (Syvani)
+
+Ancient descendants of the Enemy Atlanteans. Though to be fair, all but the Northern Kuranani sided with the Neran Kingdoms in the Demon Wars.
+
+
+Half Elf (Kirith Syvani)
+
+
+Dwarf (Durin)
+
+Masters of Industry and sturdy warriors of old. While they didn’t invent much of the new steamtech, they have utilized and improved upon it with true Durin style.
+
+
+Half Orc (Oroka)
+
+A distinct race of Orc descendants who long ago inhabited the Forever Plains and became nomadic horse lords. Not generally civilized though there are exceptions.
+
+
+Gnome (Dinari)
+
+The true masters of Steamtech. Dinari can blend magic and machine, are the original inventors of airships and the modern Cog, and have a somewhat dubious reputation with the old Faiths of Aeranos.
+
+
+Halfling (Romaj Dinari)
+
+An offshoot, mixed race culture of the Dinari. True gypsies, roaming the continent in the old-world style.
+
+
+Tiefling (Outlanders)
+
+A result of the Riftwars were many half-blood demons. They walk a hard road full of distrust and hostility. Many live at the fringes of society, as adventurers and outcasts.
+
+
+Dragonborn (Kaaj)
+
+The enemy race led by the Outworld Demons during the Riftwar. Originally from the Endless Skies of the Elemental Planes of Air they now have a tense peace with Aeranos and do trade through the permanent Rift above the Bay of Fahl. They are carefully watched by the governments of the Five Kingdoms and still viewed by most as “The Enemy.”
+
+
+Awakened Cog
+
+Occasionally, through varying arcane means, a cog will attain true sentience and throw off the geases that once ruled its life. Such Awakened Cogs are left to make their way in the world, usually as outcasts, feared by their once-masters for the dangerous possibility their very existence suggests.
+    </p>
+  </section>
+  <section class="main-section" id="Lucky_Breaks">
+    <header>Lucky Breaks</header>
+    <article>
+      Inspiration Point Rule
+
+In addition to the standard use of an Inspiration, you can use a point to invoke a Lucky Break. This Lucky Break is generally a minor to moderate event that changes the course of the character's narrative in a positive manner.
+      <p>
+        Things a Lucky Break WILL Do: <code>Add a whole new roll when you thought things were hopeless.
+Introduce a new item or NPC to a situation.
+Provide a free clue when you’ve hit a dead end in the plot.</code> 
+      </p>
+      <p>
+        Things a Lucky Break WON’T Do:<code>Create a mechanical bonus to an existing roll. (this is what standard Inspiration is for)
+Eliminate all danger, or completely get you out of a tight spot.</code> 
+      </p>
+      <p>
+       Examples of Lucky Breaks are:<code> An ally or NPC showing up at an opportune moment.
+Finding a footprint or hidden door after a failed investigation or survival check.
+Hearing a relevant rumor at the pub, that leads your party in the right direction.
+Stumbling upon a good bit of loot or equipment at the bottom of a pit trap.
+Getting a last chance to grab hold of a stray bit of rope or cable after falling off a really high cliff or bridge.
+To be sure, this kind of stuff happens already, when the DM wants it to. The difference is only in the player's active choice to invoke such an incident.</code> In play, if you invoke a Lucky Break, the group stops and discusses your suggestion before continuing the story. If the DM doesn't feel a Lucky Break is appropriate, you keep the point and deal with the consequences. Them’s the breaks.
+        below.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Inspiration_&_Flaws">
+    <header>Inspiration & Flaws</header>
+    <article>
+      <p>
+        Inspiration
+Inspiration is gained solely through player and DM activation of flaws. An Inspiration Point can be used in three ways:
+
+Standard Advantage: Roll again.
+Replace your roll with a 10.
+Add +5 to your roll.
+      </p>
+
+      <p>
+        Using Flaws to Gain Inspiration
+There are two ways to bring your Flaws into play.
+      </p>
+      <code>A. Invoking a Flaw
+This method is completely in yours, or the DM's hands. Anytime, before you make a test, you or the DM can suggest invoking one of your flaws. When this is done, you enter a Disadvantaged State, or add a Story Complication.
+
+B. Critical Dice Failure
+Anytime you get a natural result of one on your dice roll, you and the DM must try to invoke one of your flaws, sending you into a Disadvantaged State, or adding a Story Complication.
+
+If you can find no flaws that apply, you don't have to invoke a flaw, but you get no chance to earn a Inspiration point either.</code>
+      <p>
+        Disadvantaged State
+Whenever you enter this state, the DM gains a one-time ability to impose a -5 Disadvantage modifier to your current test, or a future test in the current scene. This choice can, and often should, be made by the DM after you roll, for maximum negative effect
+      </p>
+
+      <code
+        >vantage Modifier Rules
+
+If you invoke an Inspiration point on a test, the DM can’t use the negative modifier for the same test.
+
+The DM can’t use the modifier as a bonus to his own tests.
+
+
+Once the scene ends, or the negative modifier has been applied, your Disadvantaged State ends as well. If the scene ends without the DM getting a chance to use the modifier, you don’t get an Inspiration point.</code
+      >
+    </article>
+  </section>
+  <section class="main-section" id="Story_Complication">
+    <header>Story Complication</header>
+    <article>
+      <p>
+        A Story Complication is more of a roleplaying disadvantage than a mechanical one. Your flaw leads to a twist, or an unfortunate turn of events that complicates your character’s life, and possibly everyone else’s. This might be your criminal past rearing its ugly head and spoiling your negotiations with the local law keepers, or a Dependant being among the hostages of an evil wizard you’re about to face. Story Complications should generally be agreed upon by both the DM and the players.
+      </p>
+
+      <p>
+        Refusing a Flaw
+There may be times when you roll a natural one, or when the DM invokes, that you really don't want to be disadvantaged. You can choose to refuse the flaw for the scene without any penalty, beyond the missed opportunity to gain a Inspiration point.
+
+Flaw Types
+There are three types of scene where flaws can be invoked. Many can be invoked in more than one.
+        
+        Social
+Social flaws can be invoked when your character is in any kind of discussion or negotiation. Basically any time your character is interacting with NPCs. Most of the time, this is without weapons drawn and without attack and defense tests flying around. While this kind of flaw can lead to a Disadvantaged State, effecting social skill tests, it is more often associated with a Story Complication.
+
+Combat
+Combat flaws are the most cut and dry. They almost always take the form of a Disadvantaged State, and can be really annoying, but often just as entertaining and/or interesting. Certain combat flaws, like Crippled, should be invoked often by the DM and player, while others may only come up every once in awhile.
+
+Exploration
+This type of flaw comes up when you are busy in the process of “adventuring.” It might hamper you while you are picking a lock, disarming a trap or deciphering runes on a dungeon wall. Most of the time this takes the form of a Disadvantaged State, though in some circumstances, it might lead to a Story Complication.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="New_Flaws_After_Character_Creation">
+    <header>New Flaws After Character Creation</header>
+    <article>
+      <p>
+        
+New Flaws are gained, and old one’s are lost whenever you and the DM feel they are appropriate.
+      </p>
+
+      <code>Addiction
+
+• Age
+
+• Covetous
+        
+• Cowardice
+
+• Crazy
+
+• Crippled
+
+• Cruel
+
+• Daredevil
+
+• Delusions
+
+• Depressed
+
+• Dependence
+
+• Frailty
+
+• Honorable
+
+• Jester
+
+• Landbound
+
+• Loner
+
+• Nightmares
+
+• Obsession
+
+• Outlaw
+
+• Overconfident
+
+• Paranoia
+
+• Phobia
+
+• Poor
+
+• Poor Senses
+
+• Protector
+
+• Secret
+
+• Slow Learner
+
+• Slow Wit
+
+• Stoic
+
+• Temper
+
+• Ugliness
+
+• Unlucky
+
+• Zealot</code>
+      <p>
+        Addiction
+At some point in your past you became addicted to an illicit herb or narcotic like Fairyfire or Spriggan Wine. There are varying levels of addiction, but the strongest allowed through this flaw is equivalent to a functional addict. You may be sometimes physically or mentally impaired by your addiction, but you are rarely, completely incapacitated.
+
+To get rid of this flaw, you must succeed in a very difficult Wisdom Save after staying clean for a prolonged period of time.
+
+Age
+You are not in the prime of your life. You either have yet to attain your prime, or are somewhat past it.
+
+Young characters can eventually erase this flaw with in-game time. With the proper magic, even older characters can buy it off, but that kind of magic is far from common.
+
+Covetous
+You are greedy by nature. This greed either takes the form of a general (yet less intense) desire for wealth and fame, or a more burning and encompassing need for a specific type of wealth, like jewels, or a need for a certain kind of attention, such as being the best swordsman.
+
+Make a note of your particular brand of Covetousness when you take this flaw.
+
+Cowardice
+You have an especially hard time overcoming your natural fear of situations that put you in large amounts of danger. Whenever you're faced with a larger enemy force, either in size or numbers, you want to either run for safety, or hide behind others until the threat has ended.
+      </p>
+
+      <p>
+        Crazy
+Your pot's half full. You've had one too many knocks on the hat rest. However you choose to say it, you have been through an experience that has left you with a slightly off-kilter view of the world. Either that or you were just born this way. The exact way your lunacy manifests is up to you, but in no way should it be considered the wise or good thing to do. If the DM doesn't think your actions are crazy enough, he's free to deny you the inspiration point.
+
+An important side note: You should always keep in mind your crazy when roleplaying, but try not to purposefully disrupt the story.
+
+Crippled
+Somewhere in your past you sustained an injury that left lasting physical damage. Healing, if it came at all, came far too late, or was far too little, to completely restore you. Choose some level of disability, from a missing finger, to a missing eye or leg, or anything in between. The severity will have a great deal to do with how often this flaw comes up, and in what exact situations.
+
+Any injury can be healed with powerful enough magic. The particular steps involved in removing this flaw are up to you and the DM.
+
+Cruel
+You have a tendency for cruelty that others may look down on, and can sometimes lead you to actions that aren't in your best interest. You often fail to show mercy. In combat this might mean a vicious blow. In a heated conversation it could mean you let loose with acidic remarks and hurtful words.
+      </p>
+
+      <p>
+        Daredevil
+You have trouble resisting a challenge, especially when there's some doubt as to whether you can succeed. If the challenge is frivolous and won't somehow help you, it will be much easier to refuse. Likewise, if there's a truly overwhelming possibility of death, common sense will probably win over, otherwise, you’re easily led into danger.
+
+Delusions
+You hold to a perception about yourself or the world that just isn't true. You might believe yourself to be the long lost son of the King, or that all women with blonde hair and green eyes are secretly evil, or that rowan trees have magical powers against the undead.
+
+Whatever your delusion, it isn't something that completely interferes with your daily life. For that kind of problem you need the Crazy flaw. In most ways you're a completely normal, rational person.
+
+Depressed
+You sometimes have trouble retaining any kind of happiness and occasionally sink into apathy or a deep, melancholy state. Most of the time this flaw can be attributed to some horrible or deeply sad event in your past. Other times it's just who you are. Every once in awhile, if the situation seems ripe for it, you become extremely lethargic and basically no fun to be around. Such a bout of Depression usually lasts no more than a day, but an extremely bad episode might call for a week of moping.
+      </p>
+
+      <code
+        >// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
+        CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
+        }</code
+      >
+      Dependence
+There is someone in your life who you feel you must always defer to and please to the best of your ability. When you're around this person, you have trouble making independent decisions.
+
+Frailty
+Either due to an earlier illness, disease, or a general lack of exercise you are not as healthy as you should be.
+
+Honorable
+Your word is your bond, and you judge yourself strictly by how you treat others. You are truthful and fair to your friends and are generally unable to be otherwise toward them.
+
+You must treat enemies with the same respect, which, let's face it, is often difficult to pull off without being taken advantage of.
+
+Too many dishonorable actions will cause you to lose this flaw, at the discretion of the DM.
+      
+      ester
+You have trouble taking things serious. Even in the worst situations you find something humorous about life and try to make others see it. Sometimes this is appreciated, sometimes it's not. When faced with a situation where tact and seriousness are called for you may suffer negative consequences ranging from awkward silences to physical violence.
+
+Landbound
+While most adventurers have learned at least the basics of staying afloat when tossed in the water, you have great trouble with it, more-so moving from one point to another and actually swimming.
+
+Loner
+You don't like socializing or generally being around other people. When forced to get along with more than one or two others for any length of time, you're often rude and irritable.
+
+Nightmares
+You are plagued by vivid, recurring nightmares that often ruin your rest and may cause you to cry out in your sleep. Usually these nightmares are caused by a traumatic event in your past, but sometimes they're simply your fears getting the better of your subconscious. At least once a week you are tortured by a particularly powerful nightmare. Story Complications might include waking up screaming.
+
+Obsession
+There is one thing in your life on which you focus most of your free time and energy. Your Obsession might be a person, either loved or hated, a place, like the sunken Summerlands, or thing, like magic or the undead. Whatever your Obsession, your overriding passion for the subject is often disturbing or at least annoying to others. If provided with ample temptation you might even shirk responsibilities in order to 'chase' your Obsession.
+
+Outlaw
+You're a wanted individual and have chosen to live your life on the run instead of facing sentencing by the law. Either you are in fact a criminal or you have been well and truly framed. In either case, you will be in for punishment and/or fines if caught.
+
+Lesser versions of this might mean you are wanted for a less severe (but still serious) crime or offense against the kingdom. If you're caught, or choose to give yourself up, you will owe a large honor price and must spend time as a bondservant if you can't pay it.
+
+Greater versions mean your crime was something horrible. If you're caught, or choose to give yourself up, without a good defense you may very well face a death sentence or life as a bond servant.
+
+The exact nature of your crime should be decided by you and your DM. Remember that as a criminal you are technically outside the law and have no honor price to speak of, which means that others can malign you, hurt you, or even kill you with little fear of punishment.
+
+Overconfident
+You have an over-inflated sense of your own abilities. This might be centered on one ability or skill, or it might be a more all-encompassing “greatness.” Not only does this lead to getting into situations beyond your actual ability, but it can also be really annoying to those who have figured out your “specialness” is in your own head.
+
+Paranoia
+You KNOW there are forces in the world that are against you. Unless you stay one step ahead, and remain vigilant at all times, those forces will get you. Your Paranoia might be about something particular, like underworld assassins or strange tentacle-faced beings that read everyone's thoughts and secretly control the governments of Aeranos, or it might be a more generalized fear of strangers and everything unknown. Either way, when presented with a mystery, or a frightening encounter your brain starts imagining just how it's all a plot to get you.
+
+Phobia
+You have an unreasoning dread of something particular, like water, heights, crowds or snails. When you are faced with your fear, let’s just say you don’t always behave rationally or perform at your best.
+
+Poor Senses
+Your overall senses are a little (or alot) worse than others of your race and experience. You might have suffered an illness that left your senses impaired, or you could have been born that way.
+
+Protector
+Whether it be for love, friendship or duty, you have one or more friends or family members who rely on you to protect them. You, in turn, feel charged to protect them and will sacrifice much to keep them safe. If forced to choose whether to protect this person (or persons) or someone or something else you will almost without exception choose your charge.
+
+You can travel and be away from your charge, but only if you believe them to be in a safe situation and out of harm's way. Should their situation change, or you receive word that they might be in danger, you will likely rush to their aid.
+
+If for any reason those you are charged to protect are killed, you must immediately take another three flaws from the following list. (Addiction, Cowardice, Crazy, Cruel, Depressed, Nightmares or Obsession (Revenge).
+      <code
+        >Secret
+There is something about you that not very many people know, and if they find out, it will at the very least cause you trouble, and it might even get you killed. The exact nature of the secret and it's seriousness is up to you and the DM.
+
+Example
+
+Having once belonged to disreputable band of brigands
+
+You were a thief earlier in your life
+
+Being an active fence for stolen goods
+
+Being an unbound mage (without a mage seal)
+
+Having committed and paid for a serious crime.
+
+You committed a serious crime but have so far escaped suspicion
+
+You were disowned and banished from your clan
+
+You are a member of a Demon cult</code
+      >
+      <p>
+        Slow Learner
+Whether due to stubbornness or being dropped on your head when you were a baby, you just aren't very good at learning new things. When you are faced with new experiences, or are attempting to memorize or train, you find it extremely difficult to stay focused.
+
+Slow Wit
+You aren't incredibly swift when it comes to wordplay and the subtleties of conversation, or for that matter any mental challenges. This isn't to say that you are unintelligent necessarily (though often people with this flaw are), just that you have to take time to ponder things.
+
+Stoic
+You very rarely show emotion. This may be due to a traumatic childhood, traits learned from an equally stoic family member or a true and honest lack of intense feelings. Your stoicism can come across as callousness or rudeness in social situations, especially among those who don't know you very well. The one possible exception to this is when you are dealing with other Stoics.
+
+Temper
+Situations and people have a tendency to make you angry. When you're angry, you often act irrationally and sometimes violently. When engaged in an argument, or otherwise faced with a situation where you don't get your way, or must deal with someone you dislike, you often lash out. It's up to you and the DM to decide whether your temper manifests as harsh words or physical violence, but in either case, more often than not, it causes problems.</p>
+    </article>
+  </section>
+  <section class="main-section" id="Pushing_Your_Abilities">
+    <header>Pushing Your Abilities</header>
+    <article>
+      <p>Altered rules for special abilities.
+
+Characters of Aeranos have the limited ability to push their endurance when using spells or certain special class abilities.</p>
+      <ul>
+        <li>
+          <p>Pushing Spell Slots</p>
+          <ul>
+            <li>If you’ve already used up all of your spell slots for the day you can try to push yourself into casting another spell. To do so, roll a DC12 + Spell Level Saving throw using your Spellcasting ability.</li>
+            <li>
+              Succeeding on this test allows you to cast the spell as normal, but you gain one level of exhaustion.
+
+
+            </li>
+            <li>Failing means the spell doesn’t happen, you cannot push anymore without a short rest, and you receive 2 levels of exhaustion.</li>
+            <li>You cannot push a spell roll until ALL your current slots are used up. If you have higher level spell slots, you must use them to cast your lower level spell first.</li>
+            <li>Pushing Daily Abilities</li>
+            <li>
+              You have a limited potential to gain an extra use of daily powers and abilities that recharge with short or long rests. To do so, roll a DC15 Saving Throw using one of your Proficient Saves.
+            </li>
+          </ul>
+        </li>
+
+        <li>Succeeding on this test allows another use of the ability, but you gain one level of exhaustion.</li>
+      </ul>
+      Failing means the ability doesn’t function, you can’t push any further abilities without a short rest, and you receive 2 levels of exhaustion.
+    </article>
+  </section>
+  <section class="main-section" id="Aeranos_Feats">
+    <header>Aeranos Feats</header>
+    <article>
+      Aeronaut Feat
+
+      <code>You can lend aid to your vessel in sailing and skill checks, and have familiarity with ship tech, gaining the following benefits:
+
+Increase your Strength, Dexterity, Intelligence or Wisdom by 1, to a maximum of 20.
+In addition the basics of rigging and sailing, you can add your proficiency modifier to one specialty from the following list: Dexterity (Piloting), Wisdom (Navigation & Sensors), Intelligence (Engineering), Dexterity (Gunnery).</code>
+      Firearms Expert<br>
+      Thanks to extensive practice with firearms, you gain the following benefits:
+
+Regardless of your class, you are considered proficient with firearms.
+Reloading a firearm takes one full round instead of the listed number of rounds for the weapon.
+Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.
+When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a one handed firearm you are holding.
+      <p>
+        Wily Pilot
+      </p>
+      <code
+        >Your piloting skill comes as much from experience and strategy as fast reactions.
+
+Increase your Intelligence or Wisdom by 1, to a maximum of 20.
+You can add either your Intelligence or Wisdom modifier to your Piloting Skill checks.
+      </code>
+      In the case of multiple conditions only the first logical condition which
+      evaluates to true will be executed. To execute multiple statements, group
+      them within a block statement ({ ... }) . In general, it's good practice
+      to always use block statements, especially when nesting if statements:
+
+      <code
+        >if (condition) { statement_1_runs_if_condition_is_true;
+        statement_2_runs_if_condition_is_true; } else {
+        statement_3_runs_if_condition_is_false;
+        statement_4_runs_if_condition_is_false; }</code
+      >
+      It is advisable to not use simple assignments in a conditional expression,
+      because the assignment can be confused with equality when glancing over
+      the code. For example, do not use the following code:
+      <code>if (x = y) { /* statements here */ }</code> If you need to use an
+      assignment in a conditional expression, a common practice is to put
+      additional parentheses around the assignment. For example:
+
+      <code>if ((x = y)) { /* statements here */ }</code>
+    </article>
+  </section>
+  <section class="main-section" id="while_statement">
+    <header>while statement</header>
+    <article>
+      A while statement executes its statements as long as a specified condition
+      evaluates to true. A while statement looks as follows:
+
+      <code>while (condition) statement</code> If the condition becomes false,
+      statement within the loop stops executing and control passes to the
+      statement following the loop.
+
+      <p>
+        The condition test occurs before statement in the loop is executed. If
+        the condition returns true, statement is executed and the condition is
+        tested again. If the condition returns false, execution stops and
+        control is passed to the statement following while.
+      </p>
+
+      <p>
+        To execute multiple statements, use a block statement ({ ... }) to group
+        those statements.
+      </p>
+
+      Example:
+
+      <p>The following while loop iterates as long as n is less than three:</p>
+
+      <code>var n = 0; var x = 0; while (n &lt; 3) { n++; x += n; }</code>
+      <p>
+        With each iteration, the loop increments n and adds that value to x.
+        Therefore, x and n take on the following values:
+      </p>
+
+      <ul>
+        <li>After the first pass: n = 1 and x = 1</li>
+        <li>After the second pass: n = 2 and x = 3</li>
+        <li>After the third pass: n = 3 and x = 6</li>
+      </ul>
+      <p>
+        After completing the third pass, the condition n &lt; 3 is no longer
+        true, so the loop terminates.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Patreon">
+    <header>Patreon</header>
+    <article>
+      Coming Soon: Link to Patreon page
+
+      <ul>
+        <li>Lurum Ipsum etc</li>
+        <li>
+         ...
+        </li>
+        <li>
+          ..
+        </li>
+      </ul>
+      <p>
+        For example, the following code defines a simple function named square:
+      </p>
+
+      <code>function square(number) { return number * number; }</code>
+      <p>
+        The function square takes one argument, called number. The function
+        consists of one statement that says to return the argument of the
+        function (that is, number) multiplied by itself. The return statement
+        specifies the value returned by the function.
+      </p>
+      <code>return number * number;</code>
+      <p>
+        Primitive parameters (such as a number) are passed to functions by
+        value; the value is passed to the function, but if the function changes
+        the value of the parameter, this change is not reflected globally or in
+        the calling function.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Online_Character_Sheets">
+    <header>Online Character Sheets</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            target="_blank"
+            >MDN</a
+          >
+        </li>
+      </ul>
+    </article>
+  </section>
+</main><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer>
+    <p>GrimDerp &copy; 2019</p> 
+  
+    </footer>
+<foot></foot>
