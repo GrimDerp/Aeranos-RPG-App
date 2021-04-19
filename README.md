@@ -1,10 +1,17 @@
-Aeranos-RPG-App
-===============
+# Aeranos Adventures Complete Rule Set: Documentation
 
-an app for playing pen and paper RPGs on tablets and smart phones
+**Aeranos Adventures** is a free to play pen and paper RPG by Gamer's Cortex.
 
-//
-Initially developed for the Aeranos Adventures core system, this app should be handy and adaptable for any pen and paper RPG system. Using your G+ account, you can keep track of character sheets, session notes, items found, and more. 
-The built-in dice roller and map viewer can be used to quicken rate of play - get through an action scene quickly instead of fiddling with the maths!
+Find out more [about Aeranos](http://tinyurl.com/aeranos).
 
-More to come soon!
+Landing Page [Coming Soon](https://docs.google.com/document/d/e/2PACX-1vSfTJFAiCSpds-c4X1OsF4zH8cbMtUm8KBxkSKsducGFD1iBs56566ZujLj8Ml6TGTrNNAV4rkmHJiS/pub)<br>
+Online [Character Sheets](#)
+
+---
+
+#Work in progress
+based on OGL D20
+
+---
+
+\ ゜ o ゜)ノ
