@@ -2,9 +2,9 @@
 
 **Aeranos Adventures** is a free to play pen and paper RPG by Gamer's Cortex.
 
-Find out more [about Aeranos](http://tinyurl.com/aeranos).
+Find out more [about Aeranos]().
 
-Landing Page [Coming Soon](https://docs.google.com/document/d/e/2PACX-1vSfTJFAiCSpds-c4X1OsF4zH8cbMtUm8KBxkSKsducGFD1iBs56566ZujLj8Ml6TGTrNNAV4rkmHJiS/pub)<br>
+Landing Page [Coming Soon]()<br>
 Online [Character Sheets](#)
 
 ---
